@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vertical-aline</title>
+    <style>
+      .text {
+        background-color: magenta;
+        font-size: 2em;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+      .top {
+        background-color: aquamarine;
+
+        font-size: 0.3em;
+        vertical-align: top;
+      }
+      .baseline {
+        background-color: yellow;
+        font-size: 0.3em;
+        display: inline-block;
+      }
+      .middle {
+        font-size: 0.3em;
+        background-color: tomato;
+        display: inline-block;
+      }
+      .bottom {
+        font-size: 0.3em;
+        background-color: tomato;
+        display: inline-block;
+      }
+      .top2 {
+        font-size: 0.3em;
+        background-color: aqua;
+        vertical-align: top;
+        display: inline-block;
+        margin-top: 2.8em;
+        border-radius: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <span class="text">vertical-aline</span>
+      <span class="top">top</span>
+    </div>
+    <br />
+    <div>
+      <span class="text">vertical-aline</span>
+      <span class="middle">미들</span>
+    </div>
+    <br />
+    <div>
+      <span class="text">vertical-aline</span>
+      <span class="baseline">init_value=baseline</span>
+    </div>
+    <br />
+    <div>
+      <span class="text">vertical-aline</span>
+      <span class="bottom">바텀</span>
+    </div>
+    <br />
+    <div>
+      <span class="text">vertical-aline</span>
+      <span class="top2">top을 중앙배치</span>
+    </div>
+  </body>
+</html>
